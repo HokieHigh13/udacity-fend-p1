@@ -1,0 +1,164 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#main {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+#name {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    padding-top: 21px;
+}
+
+#aboutMe {
+    text-align: justify;
+}
+
+#aboutMe1, #aboutMe2 {
+    padding-top: 60px;  
+}
+
+#header li {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px;
+}
+
+#careerChange {
+    margin-top: 17px;
+    margin-bottom: 5px;
+}
+
+#rightArrow {
+    padding-top: 80px;
+}
+
+#copyRight {
+    text-align: left;
+}
+
+#credit {
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+#thumbImage {
+    margin-top: 20px;
+}
+
+.thumbnail {
+    max-width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**********************************************
+
+Media Queries 
+
+***********************************************/
+
+
+@media (max-width: 1199px) {
+    
+    #aboutMe1, #aboutMe2 {
+        padding-top: 30px;  
+    }
+    
+    #satellite {
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+            
+    #aboutpill h1 {
+        font-size: 2.25em;
+        text-align: center;
+    }
+    
+    #aboutMe1 {
+        padding-top: 70px;
+    }
+    
+    #aboutMe2 {
+        display: none;
+    }
+    
+    #satellite {
+        padding-top: 10px;
+    }
+    
+    #rightArrow {
+    padding-top: 85px;
+    }
+    
+    #copyRight, #credit {
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 767px) {
+     
+    #aboutpill h1 {
+        font-size: 2em;
+    }
+    
+    #aboutMe {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #aboutMe1 {
+        margin-top: -30px;
+    }
+    
+    #rightArrow {
+        transform: rotate(90deg);
+        padding-bottom: 70px;
+        padding-right: 60px;
+        margin-bottom: -50px;    
+    }
+    
+    #satellite {
+        padding-left: 50px;
+    }
+    
+    #thumbImage {
+        margin-top: -10px;
+    }
+    
+     .thumbnail {
+        max-width: 220px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    
+    #aboutpill h1 {
+        font-size: 1.75em;
+    }
+    
+    #aboutpill h3 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 414px) {    
+    #aboutMe {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

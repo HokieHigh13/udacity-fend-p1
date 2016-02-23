@@ -1,0 +1,211 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Tyler's Portfolio Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font-awesome-4.5.0/css/font-awesome.min.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script>
+            // Picture element HTML5 shiv
+            document.createElement( "picture" );
+        </script>
+        <script src="js/vendor/picturefill.min.js" async></script>
+    </head>
+
+    <body>
+        
+        <nav class="navbar navbar-fixed-top navbar-inverse" role = "navigation">    
+          <div class="container">              
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"
+              id="navbtn">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+             <p class="pull-left hidden-xs" id="name">CampbellCode</p>
+              
+             <div class="navbar-collapse collapse" id="navbar" aria-expanded="false">
+                 <ul class="nav navbar-nav" id="header">
+                     <li class="active" id="about"><a href="#aboutpill" data-toggle="pill">About</a></li>
+                     <li id="portfolio"><a href="#portfoliopill" data-toggle="pill">Portfolio</a></li>
+                 </ul>
+              </div>   
+              
+            </div>
+         </nav>
+        
+        <div class="container" id="main">            
+            <div class="tab-content" id="tabcontent">
+                <div class="tab-pane active" id="aboutpill">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="list-unstyled text-center" id="aboutMe2">
+                                <li><h3> &#128640; Aerospace Engineering Grad</h3></li>
+                                <li><h3>Proud Hokie</h3></li>
+                                <li><h3>16 years of Football games</h3></li>
+                                <li><h3>#HokieNation</h3></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <picture>
+                                <source srcset="images/8KLONo1b-250.jpg" 
+                                        media="(max-width: 414px)">
+                                <source srcset="images/8KLONo1b-275.jpg" 
+                                        media="(max-width: 767px)">
+                                <img src="images/8KLONo1b-360.jpg" class="img-responsive center-block img-circle" alt="An etsy sketch picture of me">
+                            </picture>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                             <ul class="list-unstyled text-center" id="aboutMe1">
+                                <li><h3>Video game ninja</h3></li>
+                                <li><h3>Slayer of Oreos</h3></li>
+                                <li><h3>Chick-Fil-A conosur</h3></li>
+                                <li><h3>What's life without Youtube?</h3></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <h1>From coding up satellites to coding up websites...</h1>
+                    </div>
+                    <div class="row" id="careerChange">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="satellite"> 
+                            <picture>
+                                <source srcset="images/signal18-250.svg" 
+                                        media="(min-width: 1200px)">
+                                <source srcset="images/signal18-225.svg" 
+                                        media="(min-width: 992px)"> 
+                                <source srcset="images/signal18-175.svg"  
+                                        media="(min-width: 768px)">
+                                <source srcset="images/signal18-150.svg"  
+                                        media="(min-width: 414px)">
+                                <img src="images/signal18-150.svg" id="satelliteImage" alt="A satellite">
+                            </picture>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="rightArrow"> 
+                            <picture>
+                                <source srcset="images/directional27-100.svg" media="(min-width: 1200px)">
+                                <source srcset="images/directional27-85.svg" media="(min-width: 992px)">
+                                <source srcset="images/directional27-75.svg"  
+                                        media="(min-width: 414px)">
+                                <img src="images/directional27-60.svg" class="center-block" alt="A directional arrow">
+                            </picture>
+                        </div>
+                        <div id="code">
+                        </div>
+                    </div>
+                    <div class="row" id="aboutMe">
+                        <h3>In college, my researched focused on utilizing moving masses to steer satellites. After spending time at NASA doing similar work, I discovered that I desired something more: a faster pace, a faster product cycle, and more opportunity. I've since then turned to web development and haven't looked back.</h3>
+                    </div>
+                </div>
+                <div class="tab-pane" id="portfoliopill">
+                    <div class="row" id="thumbImage">
+                        <div class="col-xs-6 col-sm-4">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/300x150" alt="A placeholder image">
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-xs-6 col-sm-4">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/300x150" alt="A placeholder image">
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/300x150" alt="A placeholder image">
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/300x150" alt="A placeholder image">
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-xs-6 col-sm-4">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/300x150" alt="A placeholder image">
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/300x150" alt="A placeholder image">
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/300x150" alt="A placeholder image">
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-xs-6 col-sm-4">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/300x150" alt="A placeholder image">
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/300x150" alt="A placeholder image">
+                                <div class="caption">
+                                    <h4>Thumbnail label</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        
+        <footer>
+            <nav class="navbar navbar-default navbar-fixed-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6" id="copyRight">
+                            <h4>Copyright &copy; 2016 Tyler Campbell</h4>
+                        </div>
+                        <div class="col-md-6" id="credit">
+                            Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
